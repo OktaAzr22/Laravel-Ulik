@@ -5,7 +5,7 @@
     <h1>Manajemen Toko</h1>
     
     <!-- Button trigger modal -->
-    <button type="button" class="btn btn-primary mb-3" data-bs-toggle="modal" data-bs-target="#tokoModal">
+    <button type="button" clas  s="btn btn-primary mb-3" data-bs-toggle="modal" data-bs-target="#tokoModal">
         Tambah Toko
     </button>
 

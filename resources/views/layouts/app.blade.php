@@ -5,38 +5,9 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     
     <title>Simple Blog</title>
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     <!-- Toastr CSS -->
-    <style>
-      :root {
-    --bg-color: #ffffff;
-    --text-color: #111827;
-    --card-bg: #f9fafb;
-    --border-color: #e5e7eb;
-}
 
-.dark {
-    --bg-color: #1f2937;
-    --text-color: #f9fafb;
-    --card-bg: #374151;
-    --border-color: #4b5563;
-}
-
-body {
-    background-color: var(--bg-color);
-    color: var(--text-color);
-    transition: background-color 0.3s ease;
-}
-
-.card {
-    background-color: var(--card-bg);
-    border-color: var(--border-color);
-}
-* {
-    transition: background-color 0.3s ease, border-color 0.3s ease;
-}
-
-/* Tambahkan class lain yang perlu support dark mode */
-    </style>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
